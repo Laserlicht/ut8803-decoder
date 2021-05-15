@@ -3,6 +3,7 @@
 ## Requirements
 
 Required PIP packages: pycp2110
+
 Required packages (ubuntu): libhidapi-hidraw0 or libhidapi-libusb0
 
 ## WireShark-Filter
@@ -21,60 +22,74 @@ usb.transfer_type == 0x1 && usb.endpoint_address.direction == 0
 
 #### Connect / SerialNr
 abcd04580001d4
+
 abcd045a0001d6
 
 **Response:**
 abcd1700303337344646313635343639353537383738313605d7
+
 last Byte = Checksum - 5
 **Device ID:**
 0374FF16546955787816
 
 #### Hold
 abcd04460001c2
+
 abcd045a0001d6
 
 #### Backlight
 abcd04470001c3
+
 abcd045a0001d6
 
 #### Select
 abcd04480001c4
+
 abcd045a0001d6
 
 #### ManualRange
 abcd04490001c5
+
 abcd045a0001d6
 
 #### AutoRange
 abcd044a0001c6
+
 abcd045a0001d6
 
 #### Min/Max
 abcd044b0001c7
+
 abcd045a0001d6
 
 #### Exit Min/Max
 abcd044c0001c8
+
 abcd045a0001d6
 
 #### Rel
 abcd044d0001c9
+
 abcd045a0001d6
 
 #### D Value
 abcd044e0001ca
+
 abcd045a0001d6
 
 #### Q Value
 abcd044f0001cb
+
 abcd045a0001d6
 
 #### R Value
 abcd04510001cd
+
 abcd045a0001d6
 
 #### Exit DQR
 abcd04500001cc
+
 abcd045a0001d6
 
 ### Receive
