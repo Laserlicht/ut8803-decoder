@@ -1,4 +1,13 @@
-# UT8802 / UT8803 Protocol
+# UT8802E / UT8803E Protocol
+
+![UT8803E](https://www.uni-trend.com/uploadfile/2020/0410/20200410110319359.jpg "UT8803E")
+
+* [UT8802E](https://www.uni-trend.com/html/product/gongye/hdso/UT8000_Series/UT8802E.html)
+* [UT8803E](https://www.uni-trend.com/html/product/gongye/hdso/UT8000_Series/UT8803E.html)
+
+Description / test script to decode UNI-T UT8802 / UT8803 USB-HID Serial-Protocol
+
+Very WIP...
 
 ## Requirements
 
@@ -20,7 +29,7 @@ usb.transfer_type == 0x1 && usb.endpoint_address.direction == 0
 
 ### Send
 
-#### Connect / SerialNr
+#### DeviceID
 abcd04580001d4
 
 abcd045a0001d6
@@ -29,6 +38,7 @@ abcd045a0001d6
 abcd1700303337344646313635343639353537383738313605d7
 
 last Byte = Checksum - 5
+
 **Device ID:**
 0374FF16546955787816
 
