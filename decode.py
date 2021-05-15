@@ -1,17 +1,3 @@
-#import json
-  
-#tmp = ""
-#with open('mitschnitt.json',) as f:
-#    data = json.load(f)
-
-#    for i in data:
-#        if i["_source"]["layers"]["usb"]["usb.dst"] == "host" and "usb.capdata" in i["_source"]["layers"]:
-#            byte_hex = i["_source"]["layers"]["usb.capdata"].split(":")[1]
-#            byte = bytes.fromhex(byte_hex)
-#            tmp += byte.decode("cp1252")
-
-#print(tmp)
-
 import cp2110
 import threading
 import time
